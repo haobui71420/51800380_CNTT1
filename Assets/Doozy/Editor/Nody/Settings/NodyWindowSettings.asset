@@ -45,7 +45,7 @@ MonoBehaviour:
   - {fileID: -4068905356882835928, guid: d92c413a3f5859d4d8ca328986ba05be, type: 2}
   - {fileID: -6255726094651965211, guid: d92c413a3f5859d4d8ca328986ba05be, type: 2}
   SelectedNodes:
-  - {fileID: 8366583711981940850, guid: d92c413a3f5859d4d8ca328986ba05be, type: 2}
+  - {fileID: -4866962995080736385, guid: d92c413a3f5859d4d8ca328986ba05be, type: 2}
   GraphTabs:
   - IsRootTab: 1
     Graph: {fileID: 11400000, guid: d92c413a3f5859d4d8ca328986ba05be, type: 2}
@@ -55,12 +55,12 @@ MonoBehaviour:
     SelectedNodes: []
     DeletedNodes: []
   CurrentView: 1
-  CurrentPanOffset: {x: 812.3734, y: 174.61482}
+  CurrentPanOffset: {x: 902.5, y: 230}
   DefaultPanOffset: {x: 0, y: 0}
   IsDirty: 0
   SaveCurrentGraphWithControlS: 1
   CurrentDotAnimationSpeed: 0.6
-  CurrentZoom: 0.9
+  CurrentZoom: 1
   DefaultDotAnimationSpeed: 0.6
   DefaultZoom: 1
   ShowNodeNotes: 1

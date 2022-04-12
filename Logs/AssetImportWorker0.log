@@ -1,0 +1,216 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.22f1 (a137e5fb0427) revision 10565605'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1415; Version 2004; 64bit' Language: 'en' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Doozy_test_proj
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65293
+Successfully changed project path to: E:/Doozy_test_proj
+E:/Doozy_test_proj
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 205.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.22f1 (a137e5fb0427)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Doozy_test_proj/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730 (ID=0xf02)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+    Driver:   23.21.13.9135
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009744 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 171.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.691 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3692ms)
+		BeginReloadAssembly (263ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (766ms)
+			LoadAssemblies (259ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (171ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008466 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Doozy_test_proj\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Doozy_test_proj\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2688ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2350ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (752ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (944ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (629ms)
+				ProcessInitializeOnLoadMethodAttributes (202ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 113 unused Assets to reduce memory usage. Loaded Objects now: 3949.
+Total: 4.685200 ms (FindLiveObjects: 0.565300 ms CreateObjectMapping: 0.357900 ms MarkObjects: 3.593100 ms  DeleteObjects: 0.167100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Doozy/Examples/Icons/Awesome/check-square.png
+  artifactKey: Guid(e168f013358541943b416203ba9b08b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/check-square.png using Guid(e168f013358541943b416203ba9b08b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6d334b80d262a41e4178e898b9e66b') in 0.209745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/camera.png
+  artifactKey: Guid(b84228cdc3aeb6741986f24c4e054d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/camera.png using Guid(b84228cdc3aeb6741986f24c4e054d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24a60104176b06ef4c393b9445baca4') in 0.033691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/calculator-alt.png
+  artifactKey: Guid(04f44d937a6c4a84b848f435d2384734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/calculator-alt.png using Guid(04f44d937a6c4a84b848f435d2384734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651d6eaa811c9723b4c74d1b9f34a92e') in 0.035209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/check.png
+  artifactKey: Guid(63e6607c814d2374981b5c490640ac8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/check.png using Guid(63e6607c814d2374981b5c490640ac8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050bc22a0066340b7fee89fd880379da') in 0.026947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/circle-notch.png
+  artifactKey: Guid(2f13c5b53b110074c8973037983486c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/circle-notch.png using Guid(2f13c5b53b110074c8973037983486c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a97b4769b35ab3641ea8d192f5cdd1b') in 0.028189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/camera-alt.png
+  artifactKey: Guid(f7c0241177cea924c91c4b07ab46f8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/camera-alt.png using Guid(f7c0241177cea924c91c4b07ab46f8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfe40f124f35a331a89f90f1a2f2656') in 0.032360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/circle.png
+  artifactKey: Guid(74c92d2308f864046a140663f36f906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/circle.png using Guid(74c92d2308f864046a140663f36f906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbed87b0b7c097caf136e886cb1870c') in 0.028875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/clock.png
+  artifactKey: Guid(7c8829cbc3985d24bac8f59108555d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/clock.png using Guid(7c8829cbc3985d24bac8f59108555d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c57a8c293b97c6312c8485e189eb253') in 0.026543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/chevron-left.png
+  artifactKey: Guid(5c14a532d82babc4aa79108afbc8bee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/chevron-left.png using Guid(5c14a532d82babc4aa79108afbc8bee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b062f923bf6e06de18054269b1cab19') in 0.037503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/chevron-down.png
+  artifactKey: Guid(021b6a2a021fc81499ef4ceed46ccc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/chevron-down.png using Guid(021b6a2a021fc81499ef4ceed46ccc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bf146187f6e6d758e6099ad747ae53') in 0.036766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/chevron-right.png
+  artifactKey: Guid(ac5aee7fc9c74dd4e8369a635aa18327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/chevron-right.png using Guid(ac5aee7fc9c74dd4e8369a635aa18327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedc284a9cf48cc4c94842a52fa459a5') in 0.044420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/check-circle.png
+  artifactKey: Guid(f8cdca1c52f65684ba1ffaeeaa6398e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/check-circle.png using Guid(f8cdca1c52f65684ba1ffaeeaa6398e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516561fe59a3b4b2564d367f5b30f60a') in 0.035137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/chart-network.png
+  artifactKey: Guid(ca25b3d2fd77daf488b27d154976a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/chart-network.png using Guid(ca25b3d2fd77daf488b27d154976a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07048dda7330ef9850db7c384c6bbee') in 0.025480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Doozy/Examples/Icons/Awesome/chevron-up.png
+  artifactKey: Guid(4566baf0b5ba7894ba7dd453e0e9f2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Awesome/chevron-up.png using Guid(4566baf0b5ba7894ba7dd453e0e9f2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee98df88ef116231a9e6d38d05a1b24') in 0.030588 seconds 

@@ -122,8 +122,8 @@
      <Compile Include="Assets\Doozy\Engine\Soundy\ScriptableObjects\SoundGroupData.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIPopup\UIPopupLink.cs" />
      <Compile Include="Assets\Doozy\Engine\SceneManagement\Enums\GetSceneBy.cs" />
-     <Compile Include="Assets\Doozy\Engine\Soundy\AudioData.cs" />
      <Compile Include="Assets\Doozy\Engine\Scripts\RangedFloat.cs" />
+     <Compile Include="Assets\Doozy\Engine\Soundy\AudioData.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\ProgressorGroup.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIToggle\UIToggleBehaviorType.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\LoadScene.cs" />
@@ -189,8 +189,8 @@
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\UIDrawerArrow.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\SimulatedTouch.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\UIAnimation.cs" />
-     <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetUnityEvent.cs" />
      <Compile Include="Assets\Doozy\Examples\Scripts\E11PopupScriptOne.cs" />
+     <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetUnityEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIView\UIViewMessage.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIPopup\UIPopupBehavior.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\Enums\UIDrawerContainerSize.cs" />
@@ -262,8 +262,8 @@
      <Compile Include="Assets\Doozy\Engine\Scripts\GameEventMessage.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIButton\UIButtonEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\Touchy\Enums\Swipe.cs" />
-     <Compile Include="Assets\Doozy\Engine\UI\Enums\UIEffectBehavior.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\ProgressTargets\ProgressTargetTextMeshPro.cs" />
+     <Compile Include="Assets\Doozy\Engine\UI\Enums\UIEffectBehavior.cs" />
      <Compile Include="Assets\Doozy\Engine\Scripts\GameEventManager.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Enums\TargetOrientation.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\AssetUtils.cs" />
@@ -939,14 +939,17 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -960,8 +963,14 @@
     <Reference Include="Unity.VisualScripting.State.Editor">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="VSSettingsProvider">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -975,14 +984,41 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>E:\Doozy_test_proj\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

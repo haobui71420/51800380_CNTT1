@@ -305,9 +305,10 @@
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\SpriteTargetSpriteRenderer.cs" />
      <Compile Include="Assets\Scripts\VolumeSetter.cs" />
-     <Compile Include="Assets\ViewMenu.cs" />
-     <Compile Include="Assets\DontDestroy.cs" />
-     <Compile Include="Assets\LoadingImage.cs" />
+     <Compile Include="Assets\Scripts\ViewMenu.cs" />
+     <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\LoadingImage.cs" />
+     <Compile Include="Assets\Scripts\PrefLoader.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Doozy\Examples\Fonts\Codystar\OFL.txt" />

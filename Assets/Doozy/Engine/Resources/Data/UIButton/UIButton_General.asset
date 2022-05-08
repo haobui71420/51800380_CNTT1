@@ -16,6 +16,5 @@ MonoBehaviour:
   DatabaseType: 0
   Names:
   - Back
-  - prevBtn
-  - TestBtn
   - Unnamed
+  - Start

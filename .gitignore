@@ -5,3 +5,7 @@ Temp/
 obj/Debug/
 Logs/
 Library/
+.vsconfig
+.vs/Doozy_test_proj/v16/.suo
+.vs/Doozy_test_proj/v16/TestStore/0/000.testlog
+.vs/Doozy_test_proj/v16/TestStore/0/testlog.manifest

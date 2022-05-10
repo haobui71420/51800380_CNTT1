@@ -55,6 +55,7 @@
      <Compile Include="Assets\Doozy\Engine\Touchy\TouchInfoEvent.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIDrawer\UIDrawerArrowAnimator.cs" />
+     <Compile Include="Assets\Scripts\ViewMenu.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIToggle\UIToggleState.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\SendGameEvent.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Base\ListOfNames.cs" />
@@ -88,6 +89,7 @@
      <Compile Include="Assets\Doozy\Engine\Orientation\OrientationDetector.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\UIAnimator.cs" />
      <Compile Include="Assets\Doozy\Engine\Nody\Models\Enums\ConnectionMode.cs" />
+     <Compile Include="Assets\Scripts\PrefLoader.cs" />
      <Compile Include="Assets\Doozy\Engine\Settings\DoozySettings.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\WaitNode.cs" />
      <Compile Include="Assets\Doozy\Engine\SceneManagement\ActiveSceneChangedEvent.cs" />
@@ -114,6 +116,7 @@
      <Compile Include="Assets\Doozy\Engine\Nody\Connections\PassthroughConnection.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ColorTargetImage.cs" />
      <Compile Include="Assets\Doozy\Engine\Soundy\SoundyPooler.cs" />
+     <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Structs\FontAssetId.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\UIDrawerNode.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\FileUtils.cs" />
@@ -136,6 +139,7 @@
      <Compile Include="Assets\Doozy\Engine\Utils\ColorModels\CMYK.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\ScriptUtils.cs" />
      <Compile Include="Assets\Doozy\Engine\Utils\ColorModels\HSV.cs" />
+     <Compile Include="Assets\Scripts\VolumeSetter.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Animation\UIAnimations.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\SpriteTargetImage.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\DoozyUI\UnloadScene.cs" />
@@ -179,6 +183,7 @@
      <Compile Include="Assets\Doozy\Engine\Touchy\Enums\SimpleSwipe.cs" />
      <Compile Include="Assets\Doozy\Engine\Progress\Enums\ProgressorVariable.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\Nodes\TimeScaleNode.cs" />
+     <Compile Include="Assets\Scripts\LoadingImage.cs" />
      <Compile Include="Assets\Doozy\Engine\Extensions\RectTransformExtensions.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\ThemeTarget.cs" />
      <Compile Include="Assets\Doozy\Engine\UI\UIButton\UIButtonBehavior.cs" />
@@ -304,11 +309,7 @@
      <Compile Include="Assets\Doozy\Engine\Progress\ProgressTargets\ProgressTargetImage.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\SpriteTargetSpriteRenderer.cs" />
-     <Compile Include="Assets\Scripts\VolumeSetter.cs" />
-     <Compile Include="Assets\Scripts\ViewMenu.cs" />
-     <Compile Include="Assets\Scripts\DontDestroy.cs" />
-     <Compile Include="Assets\Scripts\LoadingImage.cs" />
-     <Compile Include="Assets\Scripts\PrefLoader.cs" />
+     <Compile Include="Assets\PopupEndGame.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Doozy\Examples\Fonts\Codystar\OFL.txt" />

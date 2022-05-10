@@ -282,14 +282,8 @@ MonoBehaviour:
   - Category: General
     InstantAction: 0
     Name: Options
-  m_onEnterHideViews:
-  - Category: General
-    InstantAction: 0
-    Name: Main Menu
-  m_onExitShowViews:
-  - Category: General
-    InstantAction: 0
-    Name: Main Menu
+  m_onEnterHideViews: []
+  m_onExitShowViews: []
   m_onExitHideViews:
   - Category: General
     InstantAction: 0

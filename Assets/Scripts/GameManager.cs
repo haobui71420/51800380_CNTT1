@@ -2,20 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using Doozy.Engine.UI;
 public class GameManager : MonoBehaviour
 {
 	public static GameManager manager;
 
-	[SerializeField]
-	private Camera mainCamera;
-	[SerializeField]
-	private GameObject selection;
+	[SerializeField] private Camera mainCamera;
+	[SerializeField] private GameObject selection;
 
-	[SerializeField]
-	public int[,,] grid;
-	[SerializeField]
-	private Color[] colors = new Color[6];
+	[SerializeField] public int[,,] grid;
+	public Color[] colors = new Color[6];
 
 	private bool isMoving = false;
 	private GameObject objectToMove;
@@ -28,12 +24,11 @@ public class GameManager : MonoBehaviour
 	List<GameObject> previewBalls = new List<GameObject>();
 
 	public GameObject explosion;
-
-	public Image fadedBackground;
-	public Text finalScore;
 	public Text highScore;
-	public Button btnRestart;
+	public PopupEndGame popupEndGame;
 
+	public bool isEnded = false;
+	
 
 	private void Awake()
 	{
@@ -44,7 +39,7 @@ public class GameManager : MonoBehaviour
 	void Start()
 	{
 		pathFinder = new PathFinding();
-		highScore.text = "Highscore: " + PlayerPrefs.GetInt("Highscore");
+		highScore.text = "Highscore: " + PlayerPrefs.GetInt("Highscore").ToString();
 		SpawnBall();
 	}
 
@@ -343,14 +338,22 @@ public class GameManager : MonoBehaviour
 
 	void EndGame()
 	{
-		fadedBackground.gameObject.SetActive(true);
-		finalScore.text = "YOUR SCORE \n" + points.ToString();
+		// fadedBackground.gameObject.SetActive(true);
+		string text = "";
+		isEnded = true;
 		if(points > PlayerPrefs.GetInt("Highscore"))
 		{
 			PlayerPrefs.SetInt("Highscore", points);
+			text = "YOUR NEW HIGH SCORE: \n" + points.ToString();
 		}
-		finalScore.gameObject.SetActive(true);
-		btnRestart.gameObject.SetActive(true);
+		else
+		{
+			text = "YOUR SCORE: \n" + points.ToString();
+		}
+		popupEndGame.Show(text);
+			
+		// finalScore.gameObject.SetActive(true);
+		// btnRestart.gameObject.SetActive(true);
 	}
 
 	IEnumerator Wait(float time)

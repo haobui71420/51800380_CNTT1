@@ -8,15 +8,17 @@ public class Timer : MonoBehaviour
     float time = 0;
 
 	public Text timerText;
-
+	[SerializeField] private GameManager manager;
 	private void Start()
 	{
-		
 	}
 	private void Update()
 	{
-		time += Time.deltaTime;
-		DisplayTime(time);
+		if(!manager.isEnded)
+		{
+			time += Time.deltaTime;
+			DisplayTime(time);
+		}
 	}
 	void DisplayTime(float time)
 	{

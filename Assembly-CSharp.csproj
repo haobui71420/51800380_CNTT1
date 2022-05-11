@@ -309,7 +309,7 @@
      <Compile Include="Assets\Doozy\Engine\Progress\ProgressTargets\ProgressTargetImage.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Doozy\Engine\Themes\Targets\SpriteTargetSpriteRenderer.cs" />
-     <Compile Include="Assets\PopupEndGame.cs" />
+     <Compile Include="Assets\Scripts\PopupEndGame.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Doozy\Examples\Fonts\Codystar\OFL.txt" />

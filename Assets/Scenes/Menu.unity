@@ -3733,7 +3733,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Progressor: {fileID: 537043922}
-  SceneActivationDelay: 0.2
+  SceneActivationDelay: 4
   SceneBuildIndex: 1
   SceneName: 
   SelfDestructAfterSceneLoaded: 0
@@ -3786,7 +3786,7 @@ MonoBehaviour:
   ProgressTargets:
   - {fileID: 2030102098}
   AnimateValue: 1
-  AnimationDuration: 0.1
+  AnimationDuration: 0.5
   AnimationEase: 1
   AnimationIgnoresUnityTimescale: 1
   OnEnableResetValue: 1
@@ -4135,6 +4135,50 @@ RectTransform:
   m_AnchoredPosition: {x: -0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &934188832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 934188834}
+  - component: {fileID: 934188833}
+  m_Layer: 0
+  m_Name: Coroutiner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &934188833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934188832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26bf0e3570f6de24b8937cb5f95c497e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &934188834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934188832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &979482451
 GameObject:
   m_ObjectHideFlags: 0
@@ -4523,7 +4567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2522, y: 0}
+  m_AnchoredPosition: {x: 2260, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1151895480
@@ -4578,13 +4622,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DebugMode: 0
   StartPosition: {x: 0, y: 0, z: 0}
-  StartRotation: {x: 0, y: 0, z: 0}
+  StartRotation: {x: -0, y: 0, z: 0}
   StartScale: {x: 1, y: 1, z: 1}
   StartAlpha: 1
   AutoHideAfterShow: 0
   AutoHideAfterShowDelay: 3
   AutoSelectButtonAfterShow: 0
-  BehaviorAtStart: 1
+  BehaviorAtStart: 0
   CustomStartAnchoredPosition: {x: 0, y: 0, z: 0}
   DeselectAnyButtonSelectedOnHide: 0
   DeselectAnyButtonSelectedOnShow: 0
@@ -4641,7 +4685,7 @@ MonoBehaviour:
         Duration: 1
       Scale:
         AnimationType: 2
-        Enabled: 1
+        Enabled: 0
         From: {x: 0, y: 0, z: 0}
         To: {x: 0, y: 0, z: 0}
         By: {x: 0, y: 0, z: 0}
@@ -4681,7 +4725,7 @@ MonoBehaviour:
         Duration: 1
     AutoStartLoopAnimation: 1
     LoadSelectedPresetAtRuntime: 0
-    InstantAnimation: 0
+    InstantAnimation: 1
     OnFinished:
       AnimatorEvents: []
       Effect:
@@ -4882,19 +4926,73 @@ MonoBehaviour:
         Direction: 0
         CustomPosition: {x: 0, y: 0, z: 0}
         EaseType: 0
-        Ease: 1
+        Ease: 2
         AnimationCurve:
           serializedVersion: 2
-          m_Curve: []
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.09776882
+            value: 1.4965767
+            inSlope: 7.9354553
+            outSlope: -4.4930606
+            tangentMode: 1
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.25200257
+            value: 0.202149
+            inSlope: -5.126817
+            outSlope: 6.5931773
+            tangentMode: 1
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.53063124
+            value: 1.0981313
+            inSlope: 2.904295
+            outSlope: -4.613026
+            tangentMode: 1
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.8821539
+            value: 0.20715636
+            inSlope: -1.6927071
+            outSlope: 5.042744
+            tangentMode: 1
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.3
       Rotate:
         AnimationType: 1
-        Enabled: 0
-        From: {x: 0, y: 0, z: 0}
+        Enabled: 1
+        From: {x: 0, y: 20, z: -15}
         To: {x: 0, y: 0, z: 0}
         By: {x: 0, y: 0, z: 0}
         UseCustomFromAndTo: 0
@@ -4902,21 +5000,93 @@ MonoBehaviour:
         Elasticity: 1
         NumberOfLoops: -1
         LoopType: 1
-        RotateMode: 1
+        RotateMode: 0
         EaseType: 0
-        Ease: 1
+        Ease: 27
         AnimationCurve:
           serializedVersion: 2
-          m_Curve: []
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0.8317713
+            outSlope: 0.8317713
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.086447984
+            value: 0.3852525
+            inSlope: -4.0340276
+            outSlope: -4.0340276
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.15024436
+            value: -0.16880007
+            inSlope: 2.6790874
+            outSlope: 2.6790874
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.31475198
+            value: 0.63001835
+            inSlope: 1.654774
+            outSlope: 1.654774
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.65320194
+            value: -0.3455999
+            inSlope: 2.2644703
+            outSlope: 2.2644703
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.86005604
+            value: 0.59935784
+            inSlope: -8.202301
+            outSlope: -8.202301
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.98112845
+            value: 0.78519994
+            inSlope: -1.8837628
+            outSlope: -1.8837628
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 4
-        StartDelay: 0
-        Duration: 1
+        StartDelay: 0.2
+        Duration: 0.4
       Scale:
         AnimationType: 1
         Enabled: 0
-        From: {x: 0, y: 0, z: 0}
+        From: {x: 0.7, y: 0.7, z: 1}
         To: {x: 0, y: 0, z: 0}
         By: {x: 0, y: 0, z: 0}
         UseCustomFromAndTo: 0
@@ -4925,20 +5095,65 @@ MonoBehaviour:
         NumberOfLoops: -1
         LoopType: 1
         EaseType: 0
-        Ease: 1
+        Ease: 2
         AnimationCurve:
           serializedVersion: 2
-          m_Curve: []
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.22024798
+            value: 1.9692707
+            inSlope: 0.9352582
+            outSlope: 0.9352582
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.65045136
+            value: 1.0910703
+            inSlope: 0.5003349
+            outSlope: 0.5003349
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.7293131
+            value: 0.8114508
+            inSlope: 1.217737
+            outSlope: 1.217737
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: -0.943337
+            outSlope: -0.943337
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.5
       Fade:
         AnimationType: 1
-        Enabled: 1
+        Enabled: 0
         From: 0
-        To: 0
+        To: 1
         By: 0.5
         UseCustomFromAndTo: 0
         NumberOfLoops: -1
@@ -4952,7 +5167,7 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         StartDelay: 0
-        Duration: 1
+        Duration: 0.4
     AutoStartLoopAnimation: 1
     LoadSelectedPresetAtRuntime: 0
     InstantAnimation: 0
@@ -4996,8 +5211,8 @@ MonoBehaviour:
         SoundName: No Sound
         AudioClip: {fileID: 0}
         OutputAudioMixerGroup: {fileID: 0}
-    PresetCategory: Uncategorized
-    PresetName: Default
+    PresetCategory: Basic
+    PresetName: FinetuneLeft
   ShowProgressor: {fileID: 0}
   TargetOrientation: 2
   UpdateHideProgressorOnShow: 0
@@ -12584,8 +12799,8 @@ MonoBehaviour:
     IsPlaying: 0
     LoopAnimationType: 0
     LoadSelectedPresetAtRuntime: 0
-    PresetCategory: 
-    PresetName: 
+    PresetCategory: Uncategorized
+    PresetName: Default
   SelectedLoopAnimation:
     Animation:
       AnimationType: 3
@@ -13540,7 +13755,7 @@ MonoBehaviour:
         Duration: 1
     AutoStartLoopAnimation: 1
     LoadSelectedPresetAtRuntime: 0
-    InstantAnimation: 0
+    InstantAnimation: 1
     OnFinished:
       AnimatorEvents: []
       Effect:

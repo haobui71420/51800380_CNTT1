@@ -159,7 +159,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'YOUR SCORE:  '
+  m_Text: "YOUR SCORE: \n0"
 --- !u!1 &2538761285592771550
 GameObject:
   m_ObjectHideFlags: 0
@@ -5692,6 +5692,7 @@ MonoBehaviour:
   Data:
     Buttons:
     - {fileID: 2538761285749945799}
+    - {fileID: 2538761285592771548}
     Images:
     - {fileID: 2538761285647363644}
     Labels:
@@ -6002,7 +6003,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2538761286597112494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a4c80ee1f9ccb047bee8144113b1ed3, type: 3}
+  m_Script: {fileID: 11500000, guid: c9cadafa422164a4fa0e8b9b86459040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textScore: {fileID: 2538761285477894717}
